@@ -110,12 +110,13 @@ export const ServiceCard = ({ icon, title, desc, features }) => {
       onMouseLeave={() => setHover(false)}
       style={{
         ...cardBase,
+        background: 'transparent',
         borderColor: hover ? colors.electric : colors.border,
         transform: hover ? 'translateY(-4px)' : 'none',
       }}
     >
       {icon && <div style={{ fontSize: 28, marginBottom: 20 }}>{icon}</div>}
-      <h3 style={{ fontFamily: fonts.display, fontSize: 24, letterSpacing: 1, marginBottom: 12 }}>{title}</h3>
+      <h3 style={{ fontFamily: fonts.display, fontSize: 20, letterSpacing: 1, marginBottom: 12, color: '#666', fontWeight: 400 }}>{title}</h3>
       <p style={{ color: '#000', fontSize: 14, lineHeight: 1.7, marginBottom: features ? 20 : 0 }}>{desc}</p>
       {features && (
         <ul style={{ listStyle: 'none' }}>

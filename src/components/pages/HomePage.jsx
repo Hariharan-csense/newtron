@@ -20,7 +20,7 @@ const WHY_CARDS = [
   { icon: '01', title: 'SME-First Approach', desc: 'We understand small business budgets, timelines, and culture. No cookie-cutter JDs. No bloated retainers.' },
   { icon: '02', title: 'Speed Without Sacrifice', desc: 'Our pre-vetted talent pool and parallel screening pipeline means you get shortlists in 72 hours, not 3 weeks.' },
   { icon: '03', title: 'Local Talent Advantage ', desc: 'We maintain deep, active talent networks across Tier 2 cities.' },
-  { icon: '04', title: 'Data-Driven Matching', desc: 'Psychometric profiling, skills assessment, and culture-fit scoring, so every shortlist is a quality shortlist.' },
+  { icon: '04', title: 'Data-Driven Matching', desc: 'Personality assessment, skills assessment, and culture-fit scoring, so every shortlist is a quality shortlist.' },
   { icon: '05', title: '45-Day Guarantee', desc: "If any placement does not work out within 45   days, we replace at zero additional cost. No debates, no fine print." },
 ];
 
@@ -228,7 +228,7 @@ export default function HomePage({ setPage }) {
         <SectionTag>Why Newtron</SectionTag>
         <h2 style={sectionTitleStyle}>Built Exclusively for  <Em>SMEs,</Em><br /></h2>
         <p style={sectionSubStyle}>
-          Large agencies do not care about 5-person teams. We do. Newtron is purpose-built for Tier 2 businesses that need enterprise-grade hiring without the enterprise-grade price tag.
+         Newtron is purpose-built for Tier 2 businesses that need enterprise-grade hiring without the enterprise-grade price tag.
         </p>
         <div className="why-cards-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: 24, justifyContent: 'center' }}>
           {WHY_CARDS.map((c) => {

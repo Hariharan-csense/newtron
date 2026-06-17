@@ -28,8 +28,7 @@ export default function TermsConditionsPage({ setPage }) {
           NEWTRON — <Em>TERMS AND CONDITIONS</Em>
         </h2>
         <p style={{ ...sectionBody, marginBottom: 26 }}>
-          <strong>A Recruitment Wing of CS</strong><br />
-          Last Updated: March 1, 2026
+         
         </p>
         <p style={{ ...sectionBody, marginBottom: 26 }}>
           <strong>Important information about using our recruitment and talent acquisition services.</strong><br /><br />
@@ -39,7 +38,7 @@ export default function TermsConditionsPage({ setPage }) {
         <div style={sectionWrap}>
           <h3 style={sectionHeading}>1. Introduction</h3>
           <p style={sectionBody}>
-            Welcome to Newtron, the recruitment wing of  Newtron Talent Solutions.  ("we", "us", or "our"). By accessing and using our recruitment and talent acquisition services — including but not limited to candidate sourcing, shortlisting, executive search, volume hiring, RPO engagements, and talent advisory (collectively, the "Services") — you agree to comply with and be bound by the following Terms and Conditions (the "Terms").
+            Welcome to Newtron, the recruitment wing of  CSense Management Solutions.  ("we", "us", or "our"). By accessing and using our recruitment and talent acquisition services — including but not limited to candidate sourcing, shortlisting, executive search, volume hiring, RPO engagements, and talent advisory (collectively, the "Services") — you agree to comply with and be bound by the following Terms and Conditions (the "Terms").
             <br /><br />
             Please read these Terms carefully before engaging our Services. If you disagree with any part of these Terms, please refrain from using our Services or entering into any engagement with Newtron.
           </p>

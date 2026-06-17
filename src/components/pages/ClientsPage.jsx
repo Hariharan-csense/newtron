@@ -9,8 +9,12 @@ import client2 from '../../clients/WhatsApp Image 2026-03-10 at 4.45.04 PM.jpeg'
 import client3 from '../../clients/WhatsApp Image 2026-03-10 at 4.45.39 PM.jpeg';
 import client4 from '../../clients/WhatsApp Image 2026-03-10 at 4.48.14 PM.jpeg';
 import client5 from '../../clients/image.png';
+import client6 from '../../clients/Karaikal Iyangars.png';
+import client7 from '../../clients/Agaram Solutions.jpg.jpeg';
+import client8 from '../../clients/Sri Muthumathi Builders.png';
+import client9 from '../../clients/logo.png';
 
-const CLIENT_IMAGES = [client1, client2, client3, client4, client5];
+const CLIENT_IMAGES = [client1, client2, client3, client4, client5, client6, client7, client8, client9];
 
 const METRICS = [
   { num: '200+',  label: 'Active Clients'    },

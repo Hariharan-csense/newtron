@@ -30,8 +30,8 @@ export default function PrivacyPolicyPage({ setPage }) {
 
         <div style={sectionWrap}>
           <p style={{ ...sectionBody, textAlign: 'center', fontStyle: 'italic' }}>
-            *A Recruitment Wing of  Newtron Talent Solutions. *<br />
-            Last Updated: March 1, 2026
+            <br />
+           
           </p>
           <p style={{ ...sectionBody, marginTop: 20 }}>
             Your privacy matters to us. This Privacy Policy explains how Newtron collects, uses, stores, and protects personal information when you engage with our recruitment and talent acquisition services.
@@ -41,7 +41,7 @@ export default function PrivacyPolicyPage({ setPage }) {
         <div style={sectionWrap}>
           <h3 style={sectionHeading}>1. Introduction</h3>
           <p style={sectionBody}>
-            Newtron, a recruitment wing of  Newtron Talent Solutions.  ("we", "us", or "our"), is committed to protecting the privacy of all individuals who interact with our services — including client organisations, hiring managers, job seekers, and candidates introduced through our recruitment process.
+            Newtron, a recruitment wing of  CSense Management Solutions Pvt Ltd.  ("we", "us", or "our"), is committed to protecting the privacy of all individuals who interact with our services — including client organisations, hiring managers, job seekers, and candidates introduced through our recruitment process.
           </p>
           <p style={{ ...sectionBody, marginTop: 10 }}>
             This Privacy Policy applies to all personal information collected through our website, recruitment engagements, client onboarding, candidate assessments, and any other touchpoint through which we provide our Services. By engaging with Newtron, you consent to the practices described in this Policy.

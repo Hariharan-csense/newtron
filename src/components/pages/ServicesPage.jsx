@@ -5,22 +5,32 @@ import Footer from '../Footer';
 
 const SERVICES = [
   {
-    icon: '🎯', title: 'Job Analysis',
+    icon: '\uD83D\uDCCB', title: 'Job Analysis',
     // desc: 'Pay only when we successfully place a candidate. Ideal for individual or small-batch hires across any function. No upfront fees, no risk.',
     // features: ['72-hour shortlist delivery', '3-5 curated profiles per role', 'Interview scheduling & coordination', 'Offer negotiation support', '90-day replacement guarantee'],
   },
   {
-    icon: '🏆', title: 'Profile Matching',
+    icon: '\u270D\uFE0F', title: 'Job Description Crafting',
+    // desc: 'Pay only when we successfully place a candidate. Ideal for individual or small-batch hires across any function. No upfront fees, no risk.',
+    // features: ['72-hour shortlist delivery', '3-5 curated profiles per role', 'Interview scheduling & coordination', 'Offer negotiation support', '90-day replacement guarantee'],
+  },
+  {
+    icon: '\uD83D\uDC64', title: 'Candidate Sourcing',
+    // desc: 'Pay only when we successfully place a candidate. Ideal for individual or small-batch hires across any function. No upfront fees, no risk.',
+    // features: ['72-hour shortlist delivery', '3-5 curated profiles per role', 'Interview scheduling & coordination', 'Offer negotiation support', '90-day replacement guarantee'],
+  },
+  {
+    icon: '\uD83E\uDDE9', title: 'Profile Matching',
     // desc: "Confidential, research-driven search for CXO, VP, and Director-level appointments. For leadership roles that define your company's next chapter.",
     // features: ['Dedicated research analyst', 'Passive candidate mapping', 'Psychometric assessments', 'Reference & background checks', '6-month replacement warranty'],
   },
   {
-    icon: '✅', title: 'Background Verification',
+    icon: '\uD83D\uDD0E', title: 'Background Verification',
     // desc: 'Fast, confidential verification support to validate candidate identity, employment history, and reliability before onboarding.',
     // features: ['Employment history checks', 'Address and ID validation', 'Education verification support', 'Reference check coordination', 'Clear status-based reporting'],
   },
   {
-    icon: '🎤', title: 'Presence in Interview Panel',
+    icon: '\uD83D\uDC68\u200D\uD83D\uDCBC', title: 'Presence in Interview Panel',
     // desc: "Newtron can join your interview panel to assess communication, role fit, and hiring readiness with a recruiter's lens.",
     // features: ['HR-led candidate evaluation', 'Structured interview support', 'Role-fit and culture-fit assessment', 'Panel feedback summary', 'Stronger final-stage selection'],
   },
@@ -77,9 +87,23 @@ export default function ServicesPage({ setPage }) {
           From sourcing to onboarding, Newtron manages the full recruitment lifecycle - customized to your business size, culture, and urgency.
         </p>
         <div className="services-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: 24 }}>
-          {SERVICES.map((s) => <ServiceCard key={s.title} {...s} />)}
+          {SERVICES.map((s) => (
+            <div key={s.title} className="service-card-wrap">
+              <ServiceCard {...s} />
+            </div>
+          ))}
         </div>
         <style>{`
+          .service-card-wrap {
+            width: 100%;
+          }
+
+          @media (min-width: 1024px) {
+            .services-grid {
+              grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+            }
+          }
+
           @media (max-width: 768px) {
             .services-grid { grid-template-columns: 1fr !important; }
           }
